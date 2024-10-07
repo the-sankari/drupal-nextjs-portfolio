@@ -1,0 +1,7 @@
+name: drupal-nextjs-portfolio
+recipe: drupal11
+config:
+  webroot: web
+  services:
+    appservice:
+      type: phpmyadmin

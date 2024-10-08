@@ -19,6 +19,8 @@
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-project-message": "^11.0",
         "drupal/core-recommended": "^11.0",
+        "drupal/devel": "^5.3",
+        "drupal/jsonapi_extras": "^3.26",
         "drush/drush": "^13.2"
     },
     "conflict": {
@@ -93,5 +95,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
     }
 }
